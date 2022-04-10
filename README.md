@@ -1,8 +1,7 @@
 # P1_Probstat_E_5025201241
 
-| Nama                      | NRP        |
-|---------------------------|------------|
-| Jabalnur                  | 5025201241 |
+> Nama  : Jabalnur <br/>
+> NRP   : 5025201241
 
 ## Soal 1
 > Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.
