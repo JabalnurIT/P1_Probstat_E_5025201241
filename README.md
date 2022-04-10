@@ -122,8 +122,10 @@ setahun (n = 365)
 > Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
   ```R
     lambda <- 3
- ```
+  ```
+  
 - Fungsi Probabilitas dari Distribusi Exponensial
+
   ```R
     # a
     expo <- function (lambda, x){
@@ -132,8 +134,10 @@ setahun (n = 365)
     }
       return (0)
     }
- ```
+  ```
+ 
 - Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
+ 
   ```R
     # b
     set.seed(1)
@@ -152,23 +156,26 @@ setahun (n = 365)
     N <- 10000
     hde_r_10000 = rexp(N, lambda)
     hist(hde_r_10000)
- ```
+  ```
  
  - Nilai Rataan (μ) dan Varian (σ2) dari Distribusi Exponensial untuk n = 100 dan λ = 3
+  
    ```R
     # c
     rataan <- lambda
     varians <- lambda^2
- ```
+   ```
 ## soal 6
 > Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
+  
   ```R
     n <- 100
     m <- 50
     std_deviasi <- 8
-```
+  ```
 - Fungsi Probabilitas dari Distribusi Normal P(X1 ≤ x ≤ X2), hitung Z-Score Nya dan plot
 data generate randomnya dalam bentuk grafik. Petunjuk(gunakan fungsi plot()).
+  
   ```R
    # a
     set.seed(100)
@@ -182,14 +189,18 @@ data generate randomnya dalam bentuk grafik. Petunjuk(gunakan fungsi plot()).
 
     grafik_rnorm = rnorm(n = 100, mean = m, sd = std_deviasi)
     plot(grafik_rnorm)
-```
+  ```
+
 - Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan:
- ```R
-   # b)
-   hist(grafik_rnorm, xlab="x", ylab="y" ,breaks = 50, main = "5025201241_Jabalnur_E_DNhistogram")
-```
-- Nilai Varian (σ2) dari hasil generate random nilai Distribusi Normal.
+ 
   ```R
-   # c)
+   # b
+   hist(grafik_rnorm, xlab="x", ylab="y" ,breaks = 50, main = "5025201241_Jabalnur_E_DNhistogram")
+  ```
+ 
+- Nilai Varian (σ2) dari hasil generate random nilai Distribusi Normal.
+ 
+  ```R
+   # c
    varians <- std_deviasi ** 2
-```
+  ```
